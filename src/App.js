@@ -54,6 +54,7 @@ function App() {
         <label className='font-medium text-xl'>Телефон:<input onChange={elem =>checkTel(elem)} onBlur={elem=>blurHand(elem)} value={tel} className='rounded-xl p-1.5' type='text'></input></label>
         <label className='font-medium text-xl'>Дата и время желаемого приёма:<input min={getCurDate} className='rounded-xl p-1.5' type='datetime-local'></input></label>
       </div>
+      <bottom className='p-4 mt-5 rounded-xl bg-cyan-500 text-black font-semibold'>Отправить</bottom>
       <footer className='flex gap-10 items-center justify-center h-20 bg-stone-800 w-full absolute left-0 bottom-0'>
           <p>Телефон: 89110968235</p>
           <p>Адрес: ул. Руставели, д.30</p>
